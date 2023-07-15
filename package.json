@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -26,6 +26,7 @@
     "bcrypt": "^5.1.0",
     "bootstrap": "^5.2.3",
     "framer-motion": "^10.9.1",
+    "gh-pages": "^5.0.0",
     "hoist-non-react-statics": "^3.3.2",
     "maath": "^0.5.3",
     "mongodb": "^5.1.0",
@@ -45,7 +46,6 @@
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
-    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7",
     "vite": "^4.2.0",
